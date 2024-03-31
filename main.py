@@ -44,7 +44,7 @@ def scramble(input_str):
 
 print("Made by ElliNet13")
 words = scramble(input("Unscramble: "))
-print("Firstly let's scramble the word even more", words)
+print("Firstly let's scramble the word even more")
 print("Now let's see what looks right!")
 print("Getting unscrambled words")
 good = []
