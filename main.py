@@ -80,7 +80,7 @@ try:
         print("Part of speech:", wordinfo["meanings"][0]["partOfSpeech"])
         print("Definition:", wordinfo["meanings"][0]["definitions"][0]["definition"])
         try:
-          print("Audio of tts saying it: ", wordinfo["phonetics"][0]["audio"])
+          print("Audio of saying it: ", wordinfo["phonetics"][0]["audio"])
         except:
           pass
         print("More info: ", "https://en.wiktionary.org/wiki/" + wordinfo["word"])
